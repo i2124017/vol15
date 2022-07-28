@@ -1,0 +1,190 @@
+.sans{font-family: 'Noto Sans JP', sans-serif;}
+.serif{font-family: 'Noto Serif JP', serif;}
+.yuji{font-family: 'Yuji Syuku', serif;}
+
+html{
+    background: linear-gradient(#fff,rgba(88, 135, 130, 1))
+}
+
+body {
+    margin: 5%;
+    padding: 0;
+    font-family: "Shippori Mincho", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+  }
+  * {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  a {
+    transition: 0.3s;
+  }
+  a:hover {
+    opacity: 0.2;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .page-header,
+  .page-content,
+  .page-footer {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+  }
+
+.page-content{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+  .page-header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+    max-width: 100%;
+  }
+  .page-hero {
+    max-width: 100%;
+  }
+  
+  .page-header__inner,
+  .page-content__inner {
+    box-sizing: content-box;
+  }
+  
+  .page-header {
+    border: solid 2px rgba(88, 135, 130, 1);
+  }
+  .page-header__inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .page-header .logo,
+  .page-footer .logo {
+    width: 256px;
+  }
+  
+  .page-header__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .global-nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .link-button {
+    display: table;
+    width: 140px;
+  }
+  .menu-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .page-heading {
+    text-align: center;
+    border-bottom: 2px solid rgba(88, 135, 130, 1);
+     padding-bottom: 4px;
+     max-width: 400px;
+     margin: 80px auto 32px;
+     
+  }
+  .color-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 954px;
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  .color-list__item {
+    max-width: 286px;
+    width: 100%;
+    text-align: center;
+  }
+  .color-list__item h3 {
+    font-size: 24px;
+    margin: 32px 0 12px 0;
+  }
+
+  .syotai-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 954px;
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  .syotai-list__item {
+    max-width: 286px;
+    width: 100%;
+    text-align: center;
+  }
+  .syotai-list__item h3 {
+    font-size: 24px;
+    margin: 32px 0 12px 0;
+  }
+
+  .meisi-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 954px;
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  .meisi-list__item {
+    max-width: 286px;
+    width: 100%;
+    text-align: center;
+    border: solid 2px rgba(88, 135, 130, 1);
+  }
+  .meisi-list__item h3 {
+    font-size: 24px;
+    margin: 32px 0 12px 0;
+  }
+
+  .link-list__item {
+    max-width: 800px;
+    width: 100%;
+    margin:0 auto;
+  }
+  
+  .link-list__item {
+   border-radius: 8px;
+   padding:72px 24px;
+   margin-top: 32px;
+   margin-bottom: 32px;
+  
+   display: flex;
+  }
+
+  .page-block {
+    max-width:1080px ;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 36px;
+  }
+  
+  .contact-data {
+
+    text-align: center;
+  }
